@@ -1,13 +1,13 @@
 import { html } from 'lit';
 import { fixture, expect } from '@open-wc/testing';
 
-import { GistApp } from '../src/GistApp.js';
-import '../src/gist-app.js';
+import { SnippetsApp } from '../src/SnippetsApp.js';
+import '../src/snippets-app.js';
 
-describe('GistApp', () => {
-  let element: GistApp;
+describe('SnippetsApp', () => {
+  let element: SnippetsApp;
   beforeEach(async () => {
-    element = await fixture(html`<gist-app></gist-app>`);
+    element = await fixture(html`<snippets-app></snippets-app>`);
   });
 
   it('renders a h1', () => {
