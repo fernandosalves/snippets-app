@@ -1,9 +1,9 @@
 import { html, TemplateResult } from 'lit';
-import '../src/gist-app.js';
+import '../src/snippets-app.js';
 
 export default {
-  title: 'GistApp',
-  component: 'gist-app',
+  title: 'SnippetsApp',
+  component: 'snippets-app',
   argTypes: {
     backgroundColor: { control: 'color' },
   },
@@ -21,7 +21,7 @@ interface ArgTypes {
 }
 
 const Template: Story<ArgTypes> = ({ title, backgroundColor = 'white' }: ArgTypes) => html`
-  <gist-app style="--gist-app-background-color: ${backgroundColor}" .title=${title}></gist-app>
+  <snippets-app style="--snippets-app-background-color: ${backgroundColor}" .title=${title}></snippets-app>
 `;
 
 export const App = Template.bind({});

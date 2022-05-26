@@ -1,8 +1,8 @@
 {
-  "name": "gist-app",
+  "name": "snippets-app",
   "description": "Webcomponent gist-app following open-wc recommendations",
   "license": "MIT",
-  "author": "gist-app",
+  "author": "snippets-app",
   "version": "0.0.0",
   "scripts": {
     "lint": "eslint --ext .ts,.html . --ignore-path .gitignore && prettier \"**/*.ts\" --check --ignore-path .gitignore",
